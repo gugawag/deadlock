@@ -1,5 +1,3 @@
-package com.gugawag.com.gugawag.so.deadlock;
-
 /**
  * Programa para simular deadlocks.
  * Gustavo Wagner: gugawag@gmail.com
