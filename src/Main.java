@@ -38,11 +38,11 @@ class SyncThread implements Runnable {
         String name = Thread.currentThread().getName();
         System.out.println(name + " obtendo lock em " + obj1);
         synchronized (obj1) {
-            System.out.println(name + " obtendo lock em " + obj1);
+            System.out.println(name + " obteve lock em " + obj1);
             work();
             System.out.println(name + " obtendo lock em " + obj2);
             synchronized (obj2) {
-                System.out.println(name + " obtendo lock em " + obj2);
+                System.out.println(name + " obteve lock em " + obj2);
                 work();
             }
             System.out.println(name + " liberando lock de " + obj2);
